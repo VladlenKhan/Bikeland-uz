@@ -1,5 +1,4 @@
 export { default as Better } from './Better/Better'
-export { default as Cards } from './Cards/Cards'
 export { default as Form } from './Form/Form'
 export { default as Footer } from './Footer/Footer'
 export { default as Header } from './Header/Header' 
