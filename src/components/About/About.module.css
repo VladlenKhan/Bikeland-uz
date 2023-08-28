@@ -1,0 +1,149 @@
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    margin-top: 79px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-direction: column;
+     
+}
+
+.title {
+    color: #000;
+    font-family: Helvetica;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.subtitle {
+    color: #000;
+    font-family: Helvetica;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap:250px;
+    
+
+}
+
+.block__elem {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    gap:40px;
+    padding:14px;
+}
+
+.block__text {
+    color: #000;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width:328px;
+}
+
+.block__desc {
+    color: #636363;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 400px;
+}
+
+hr {
+    width: 173px;
+    height: 1px;
+    background: #000;
+}
+.bold {
+    font-weight: 600;
+}
+@media (min-width:320px) and (max-width:425px) {
+    .title {
+        font-size: 20px;
+    }
+    .subtitle {
+        font-size: 16px;
+    }
+    .block {
+        gap:100px;
+    }
+    .block__img img {
+        width: 100px;
+    }
+    .block__text {
+        width: 100%;
+       font-size:  100%;
+    }
+    .block__desc {
+        width: 100%;
+        font-size: 100%;
+    }
+}
+@media (min-width:768px) and (max-width:1024px) {
+    .title {
+        font-size: 20px;
+    }
+    .subtitle {
+        font-size: 16px;
+    }
+    .block {
+        gap:100px;
+        justify-content: center;
+
+    }
+    .block__img img {
+        width: 100px;
+    }
+ 
+}
+@media (min-width:1439px) and (max-width:1440px) {
+    .title {
+        font-size: 20px;
+    }
+    .subtitle {
+        font-size: 16px;
+    }
+    .block {
+        gap:100px;
+        justify-content: center;
+        flex-wrap: nowrap;
+
+    }
+    .block__img img {
+        width: 100px;
+    }
+    .block__text {
+        width: 100%;
+       font-size:  100%;
+    }
+    .block__desc {
+        width: 100%;
+        font-size: 100%;
+    }
+}
