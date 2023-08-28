@@ -1,0 +1,36 @@
+.footer {
+    padding-top: 70px;
+    background: #111;
+    height: 100%;
+}
+
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.logo  {
+    text-align: center;
+    padding:30px;
+}
+ 
+
+.policy {
+    text-align: center;
+    color: #FFF;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    padding-bottom:18px;
+}
+
+ 
+@media screen  and (min-width:320px) and (max-width:425px) {
+    .policy {
+        font-size: 13px;
+        padding:5px 1px;
+    }
+}

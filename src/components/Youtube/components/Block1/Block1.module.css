@@ -1,0 +1,37 @@
+.block {
+    display: flex;
+    align-items:center;
+    justify-content: center;  
+}
+.block iframe {
+    border-radius: 15px;
+}
+ 
+@media (min-width: 320px) and (max-width:375px) {
+    .block iframe {
+        width: 300px;
+        height: 200px;
+    }
+    
+} 
+ 
+@media (min-width:425px ) {
+    .block iframe {
+        width:400px;
+        height: 260px;
+    }
+}
+
+@media (min-width:1439px)  and (max-width:1440px){
+ 
+    .block iframe {
+        width:900px;
+        height: 673px;
+    }
+}
+@media (min-width:1441px) {
+    .block iframe {
+        width:1220px;
+        height: 673px;
+    }
+}

@@ -1,0 +1,26 @@
+.headerBottom {
+    padding: 48px 100px;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    flex-wrap: wrap;
+}
+
+.list li a {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 100%;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+    transition: all .5s ease;
+}
+
+.list li a:hover {
+   color: #C42F15;
+}

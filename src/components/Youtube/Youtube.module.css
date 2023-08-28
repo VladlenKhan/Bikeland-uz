@@ -1,0 +1,25 @@
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.block {
+    background: #111;
+    height: 100%;
+    margin-top: 36px;
+    padding: 50px 0;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap:40px;
+    flex-wrap: wrap;
+}
+
+@media screen and (min-width: 320px) and (max-width:1024px){
+    .wrapper {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,23 @@
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.links__item {
+    width: 41px;
+    height: 41px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20.5px;
+}
+
+@media screen and (max-width:768px) {
+    .links {
+        display: none;
+    }
+}
+ 
