@@ -1,0 +1,45 @@
+.title {
+    color: #000;
+    font-family: Helvetica;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    text-align: center;
+    padding:40px;
+}
+
+.subtitle {
+    color: #000;
+    text-align: center;
+    font-family: Helvetica;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.block {
+    display: flex; 
+    justify-content: space-between;
+    flex-direction: column;
+    gap:30px;
+}
+
+.block__elem {
+    display: flex;  
+    justify-content:center;
+    gap:18px;
+}
+
+@media (min-width:320px) and (max-width:425px) {
+    .title {
+        font-size: 20px;
+    }
+    .subtitle {
+        font-size: 100%;
+        padding:5px;
+    }
+}

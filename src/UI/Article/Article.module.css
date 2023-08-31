@@ -1,0 +1,38 @@
+.block {
+    width: 385px;
+    height: 337px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+.block__bg {
+    background: url('/minbike.png');
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 213px;
+}
+
+.block__title {
+    color: #000;
+    font-family: Helvetica;
+    font-size: 20px; 
+    font-weight: 600; 
+    text-align: left;
+}
+
+.block__desc {
+    padding-top:6px;
+    color: #000;
+    font-family: Helvetica;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.block__text {
+    padding:19px 15px;
+ 
+}

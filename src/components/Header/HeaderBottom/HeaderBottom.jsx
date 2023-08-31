@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import styles from './HeaderBottom.module.css';
 
 const HeaderBottom = () => {
@@ -14,8 +15,8 @@ const HeaderBottom = () => {
                 <li> <a href="#"> КВАДРОЦИКЛЫ </a></li>
                 <li> <a href="#"> ДВИГАТЕЛИ </a></li>
                 <li> <a href="#"> ЭКИП/АКСЕССУАРЫ/ЗАПЧАСТИ </a></li>
-                <li> <a href="#"> ДИЛЕРЫ </a></li>
-                <li> <a href="#"> ДОСТАВКА </a></li>
+                <li> <Link to="/dilers"> ДИЛЕРЫ </Link></li>
+                <li> <Link to="/post"> ДОСТАВКА </Link></li>
                 </ul>
             </div>
         </div>

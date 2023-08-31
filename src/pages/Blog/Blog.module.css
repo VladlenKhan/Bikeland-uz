@@ -1,0 +1,43 @@
+.title {
+    padding-top:24px;
+    color: #000;
+    font-family: Helvetica;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.cards {
+    margin: 0 auto;
+    max-width: 1920px;
+    padding-top: 90px;
+    padding-right: 3px;
+    padding-left: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+@media (min-width:424px) and (max-width:425px) {
+    .title {
+   
+        font-size: 20px;
+        padding-right: 55px;
+        padding-left: 55px;
+         
+    
+    }
+    
+}
+@media (min-width:320px) and (max-width:375px) {
+    .title {
+        font-size: 20px;
+        padding-right:15px;
+        padding-left:15px;
+    }
+    
+}

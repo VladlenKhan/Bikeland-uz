@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import styles from './List.module.css';
 
 const List = () => {
@@ -17,8 +18,8 @@ const List = () => {
             <li className={styles.block__item}><a href="#">ДВИГАТЕЛИ</a></li>  
             <li className={styles.block__item}><a href="#">ДИЛЕРЫ</a></li>  
             <li className={styles.block__item}><a href="#">ДОСТАВКА</a></li>  
-            <li className={styles.block__item}><a href="#">БЛОГ</a></li>  
-            <li className={styles.block__item}><a href="#">РАБОТА У НАС</a></li>  
+            <li className={styles.block__item}><Link to="/blog">БЛОГ</Link></li>  
+            <li className={styles.block__item}><Link to="/work">РАБОТА У НАС</Link></li>  
             </div>
         </ul>
       );

@@ -18,6 +18,9 @@ const Home = () => {
       </div>
       <Button />
       <Youtube />
+      <div className={styles.title}>
+            НАШИ ШОУРУМЫ
+        </div>
       <Slide />
       <Form />
     </>

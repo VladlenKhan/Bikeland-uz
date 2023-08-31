@@ -12,7 +12,7 @@ const About = () => {
         <div className={styles.block}>
           <div className={styles.block__elem}>
             <div className={styles.block__img}>
-              <img src="/human.svg" alt="icon" />
+              <img src="/medal.png" alt="icon" />
             </div>
             <div className={styles.block__text}>
               Наша первостепенная цель - <span className={styles.bold}> КАЧЕСТВО! </span> Качество, превыше всего!
